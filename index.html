@@ -1,220 +1,150 @@
 <html>
+  <head>
+    <title>Login Page</title>
+  </head>
 
-<head>
-  <title>Login Page</title>
-</head>
+  <body style="background-color: #add8e6">
+    <form>
+      <h1 align="center">Students Login for the Library System</h1>
 
-<body style="background-color:#ADD8E6;">
-  <form>
-    <h1 align="center">Students Login for the Library System</h1>
-
-    <table cellspacing="5">
-      <tbody>
-        <tr>
-          <td>
-            <label for="fullname">Full Name</label>
-          </td>
-          <td>
-            <input type="text" id="fullname" name="fullname">
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="sn">Student No</label>
-          </td>
-          <td>
-            <input type="text" id="sn" name="Student No">
-          </td>
-        </tr>
-        <tr>
-          <td>Gender</td>
-          <td>
-            <input type="radio" id="male" name="gender" value="Male" />
-              <label for="male"> Male</label>
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-            <input type="radio" id="female" name="gender" value="Female" />
-              <label for="female">Female</label>
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-            <input type="radio" id="other" name="gender" value="Other">
-              <label for="other">Other</label>
-          </td>
-        </tr>
-        <tr>
-          <td><label for="year">Year</label></td>
-          <td> <select name="year" id="year">
-              <option value=""></option>
-              <option value="1">First Year</option>
-              <option value="2">Second Year</option>
-              <option value="3">Third Year</option>
-              <option value="4">Fourth Year</option>
-            </select></td>
-        </tr>
-        <tr>
-          <td><label for="faculty">Faculty</label></td>
-          <td> <select name="faculty" id="faculty">
-              <option value=""></option>
-              <option value="science">Science</option>
-              <option value="art">Art</option>
-              <option value="management">Management</option>
-              <option value="technology">Technology</option>
-            </select></td>
-        </tr>
-        <tr>
-          <td><label for="degree">Degree Program</label></td>
-          <td> <input type="text" id="degree" name="degree" size="50"></td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <h2>Personal Details</h2>
-          </td>
-        </tr>
-        <tr>
-          <td><label for="caddress">Current Address</label></td>
-          <td> <textarea type="text" id="caddress" name="caddress" cols="50" rows="5"></textarea></td>
-        </tr>
-        <tr>
-          <td><label for="paddress">Permanent Address</label></td>
-          <td><textarea type="text" id="paddress" name="paddress" cols="50" rows="5"></textarea></td>
-        </tr>
-        <tr>
-          <td><label for="telephone">Telephone</label></td>
-          <td><input type="tel" id="telephone" name="telephone" required pattern="[0]{1}[0-9]{9}" placeholder="0XX XXX XXXX"></td>
-        </tr>
-        <tr>
-          <td><label for="email">Email</label></td>
-          <td><input type="email" id="email" name="email" size="50"></td>
-        </tr>
-        <tr>
-          <td colspan="2"><p><span style = "color:red"> Please enter your clear official photo for the Library ID </span></p></td>
-        </tr>
-        <tr>
-          <td><label for="image">Image</label>
-          <input type="file" id="image" name="image"></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td><button type="submit" formaction="/wiki/Library">Submit</button></td>
-      </tr>
-      </tbody>
-    </table>  
-  </form>
-</body>
-=======
-<html>
-
-<head>
-  <title>Login page</title>
-</head>
-
-<body style="background-color:#ADD8E6;">
-  <form>
-    <h1 align="center">Students Login for the Library System</h1>
-
-    <table cellspacing="5">
-      <tbody>
-        <tr>
-          <td>
-            <label for="fullname">Full Name</label>
-          </td>
-          <td>
-            <input type="text" id="fullname" name="fullname">
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <label for="sn">Student No</label>
-          </td>
-          <td>
-            <input type="text" id="sn" name="Student No">
-          </td>
-        </tr>
-        <tr>
-          <td>Gender</td>
-          <td>
-            <input type="radio" id="male" name="gender" value="Male" />
-              <label for="male"> Male</label>
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-            <input type="radio" id="female" name="gender" value="Female" />
-              <label for="female">Female</label>
-          </td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>
-            <input type="radio" id="other" name="gender" value="Other">
-              <label for="other">Other</label>
-          </td>
-        </tr>
-        <tr>
-          <td><label for="year">Year</label></td>
-          <td> <select name="year" id="year">
-              <option value=""></option>
-              <option value="1">First Year</option>
-              <option value="2">Second Year</option>
-              <option value="3">Third Year</option>
-              <option value="4">Fourth Year</option>
-            </select></td>
-        </tr>
-        <tr>
-          <td><label for="faculty">Faculty</label></td>
-          <td> <select name="faculty" id="faculty">
-              <option value=""></option>
-              <option value="science">Science</option>
-              <option value="art">Art</option>
-              <option value="management">Management</option>
-              <option value="technology">Technology</option>
-            </select></td>
-        </tr>
-        <tr>
-          <td><label for="degree">Degree Program</label></td>
-          <td> <input type="text" id="degree" name="degree" size="50"></td>
-        </tr>
-        <tr>
-          <td colspan="2">
-            <h2>Personal Details</h2>
-          </td>
-        </tr>
-        <tr>
-          <td><label for="caddress">Current Address</label></td>
-          <td> <textarea type="text" id="caddress" name="caddress" cols="50" rows="5"></textarea></td>
-        </tr>
-        <tr>
-          <td><label for="paddress">Permanent Address</label></td>
-          <td><textarea type="text" id="paddress" name="paddress" cols="50" rows="5"></textarea></td>
-        </tr>
-        <tr>
-          <td><label for="telephone">Telephone</label></td>
-          <td><input type="tel" id="telephone" name="telephone" required pattern="[0]{1}[0-9]{9}" placeholder="0XX XXX XXXX"></td>
-        </tr>
-        <tr>
-          <td><label for="email">Email</label></td>
-          <td><input type="email" id="email" name="email" size="50"></td>
-        </tr>
-        <tr>
-          <td colspan="2"><p><span style = "color:red"> Please enter your clear official photo for the Library ID </span></p></td>
-        </tr>
-        <tr>
-          <td><label for="image">Image</label>
-          <input type="file" id="image" name="image"></td>
-      </tr>
-      <tr>
-        <td></td>
-        <td><button type="submit" formaction="/wiki/Library">Submit</button></td>
-      </tr>
-      </tbody>
-    </table>  
-  </form>
-</body>
+      <table cellspacing="5">
+        <tbody>
+          <tr>
+            <td>
+              <label for="fullname">Full Name</label>
+            </td>
+            <td>
+              <input type="text" id="fullname" name="fullname" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="sn">Student No</label>
+            </td>
+            <td>
+              <input type="text" id="sn" name="Student No" />
+            </td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>
+              <input type="radio" id="male" name="gender" value="Male" />
+                <label for="male"> Male</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="radio" id="female" name="gender" value="Female" />
+                <label for="female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="radio" id="other" name="gender" value="Other" />
+                <label for="other">Prefer not to respond</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="year">Year</label></td>
+            <td>
+              <select name="year" id="year">
+                <option value=""></option>
+                <option value="1">First Year</option>
+                <option value="2">Second Year</option>
+                <option value="3">Third Year</option>
+                <option value="4">Fourth Year</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="faculty">Faculty</label></td>
+            <td>
+              <select name="faculty" id="faculty">
+                <option value=""></option>
+                <option value="science">Science</option>
+                <option value="art">Art</option>
+                <option value="management">Management</option>
+                <option value="technology">Technology</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="degree">Degree Program</label></td>
+            <td><input type="text" id="degree" name="degree" size="50" /></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <h2 style="margin-top:10px;padding-top: 10px; border-top: 1px solid grey">Personal Details</h2>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="caddress">Current Address</label></td>
+            <td>
+              <textarea
+                type="text"
+                id="caddress"
+                name="caddress"
+                cols="50"
+                rows="5"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="paddress">Permanent Address</label></td>
+            <td>
+              <textarea
+                type="text"
+                id="paddress"
+                name="paddress"
+                cols="50"
+                rows="5"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="telephone">Telephone</label></td>
+            <td>
+              <input
+                type="tel"
+                id="telephone"
+                name="telephone"
+                required
+                pattern="[0]{1}[0-9]{9}"
+                placeholder="0XX XXX XXXX"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><input type="email" id="email" name="email" size="50" /></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <p style="color: red;">
+                Please upload a suitable photo for the identity card.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="image">Profile Picture</label>
+            </td>
+            <td>
+              <input type="file" id="image" name="image" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="reset" style="width: 100%; padding: 5px;">Reset</button>
+            </td>
+            <td>
+              <button type="submit" style="width: 100%; padding: 5px;">Submit</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
 </html>
