@@ -1,4 +1,4 @@
 # form-html
 HTML Form for a Student Registration 
 
-![screenshot](FormUI.png)
+[Demo](https://anuyaz.github.io/form-html/)
